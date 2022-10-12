@@ -13,3 +13,15 @@ if (population > avrPopulation) {
     console.log("Greece's population is above average")
 }
 else { console.log(`Greece's population is ${avrPopulation - population} people above average`) }
+
+const numNeighbors = Number(prompt('How many neighbour countries does your country have?'));
+
+if (numNeighbors === 1) {
+    console.log('Only 1 border')
+}
+else if (numNeighbors > 1) {
+    console.log('More than 1 border')
+}
+else if (numNeighbors === 0) {
+    console.log('No borders')
+};
