@@ -14,14 +14,19 @@ if (population > avrPopulation) {
 }
 else { console.log(`Greece's population is ${avrPopulation - population} people above average`) }
 
-const numNeighbors = Number(prompt('How many neighbour countries does your country have?'));
+// const numNeighbors = Number(prompt('How many neighbour countries does your country have?'));
 
-if (numNeighbors === 1) {
-    console.log('Only 1 border')
+// if (numNeighbors === 1) {
+//     console.log('Only 1 border')
+// }
+// else if (numNeighbors > 1) {
+//     console.log('More than 1 border')
+// }
+// else if (numNeighbors === 0) {
+//     console.log('No borders')
+// };
+
+if (language === "English" && population < 50e6 && isIsland === false) {
+    console.log("You should live in Greece!")
 }
-else if (numNeighbors > 1) {
-    console.log('More than 1 border')
-}
-else if (numNeighbors === 0) {
-    console.log('No borders')
-};
+else { console.log("Greece does not meet your criteria...") }
