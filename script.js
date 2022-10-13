@@ -56,4 +56,4 @@ switch (language) {
 };
 
 
-console.log(`Greece's popolation is ${population > avrPopulation ? "above" : "below"} average.`)
+console.log(`Greece's population is ${population > avrPopulation ? "above" : "below"} average.`)
