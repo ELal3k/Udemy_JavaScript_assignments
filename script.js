@@ -54,3 +54,6 @@ switch (language) {
 
     default: console.log('Great language too!');
 };
+
+
+console.log(`Greece's popolation is ${population > avrPopulation ? "above" : "below"} average.`)
