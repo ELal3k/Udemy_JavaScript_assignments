@@ -57,3 +57,14 @@ switch (language) {
 
 
 console.log(`Greece's population is ${population > avrPopulation ? "above" : "below"} average.`)
+
+function describeCountry(country, population, capitalCity) {
+    const description = `${country} has ${population} million population and it's capital is ${capitalCity}`
+    return description
+};
+
+console.log(describeCountry('Greece', 10, "Athens"));
+
+console.log(describeCountry("Portugal", 11, "Lisbon"));
+
+console.log(describeCountry("Finland", 6, "Helsinki"));
