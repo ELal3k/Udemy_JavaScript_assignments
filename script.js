@@ -68,3 +68,27 @@ console.log(describeCountry('Greece', 10, "Athens"));
 console.log(describeCountry("Portugal", 11, "Lisbon"));
 
 console.log(describeCountry("Finland", 6, "Helsinki"));
+
+
+function percentageOfWorld1(country, population) {
+    const countryPercentage = `${country} is ${(population / 7900) * 100} % of the world!`
+
+    return countryPercentage;
+
+}
+
+console.log(percentageOfWorld1('China', 1441));
+
+console.log(percentageOfWorld1("Greece", 10));
+
+console.log(percentageOfWorld1("Turkey", 80));
+
+const percentageOfWorld2 = function (country, population) {
+    return `${country} is ${(population / 7900) * 100} % of the world!`
+}
+
+console.log(percentageOfWorld2("China", 1441));
+
+console.log(percentageOfWorld2("Greece", 10));
+
+console.log(percentageOfWorld2("Turkey", 80));
