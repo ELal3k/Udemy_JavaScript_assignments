@@ -92,3 +92,9 @@ console.log(percentageOfWorld2("China", 1441));
 console.log(percentageOfWorld2("Greece", 10));
 
 console.log(percentageOfWorld2("Turkey", 80));
+
+const percentageOfWorld3 = (country, population) => {
+    return `${country} is ${(population / 7900) * 100} % of the world!`
+}
+
+console.log(percentageOfWorld3("China", 1441));
